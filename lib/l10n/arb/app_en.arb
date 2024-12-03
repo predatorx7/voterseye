@@ -1,0 +1,63 @@
+{
+    "@@locale": "en",
+    "appTitle": "Med Verify",
+    "@appTitle": {
+        "description": "Application title"
+    },
+    "languageName": "English",
+    "thatsAnError": "That's an error",
+    "requestedPageNotFound": "The requested page was not found.",
+    "thatsAllWeKnow": "That's all we know.",
+    "getStarted": "Get Started",
+    "confirmationCode": "CONFIRMATION CODE",
+    "didntReceiveCode": "Didn't receive the code?",
+    "sendAgain": "{seconds, plural, =0{Send again} =1{Send again in 1 sec} other{Send again in {seconds} secs}}",
+    "@sendAgain": {
+        "placeholders": {
+            "seconds": {
+                "type": "int"
+            }
+        }
+    },
+    "emailConfirmationCodeSent": "A confirmation has been sent to your email. Please enter it to continue.",
+    "loginTermsCondition": "By continuing, you accept privacy policy, and terms & conditions",
+    "createAnAccountButton": "Create Account",
+    "orLabel": "OR",
+    "address": "Address",
+    "pairNewDevice": "Pair new device",
+    "nearbyDevices": "Nearby Devices",
+    "wellDiscoverDevices": "We'll try to discover compatible devices and you can select a device to connect",
+    "deviceControls": "Device Controls",
+    "deviceUsage": "Device Usage",
+    "deviceSettings": "Device Settings",
+    "searching": "Searching...",
+    "addressIsRequired": "Address is required",
+    "nameIsRequired": "Name is required",
+    "availableToConnect": "Available to connect",
+    "connected": "Connected",
+    "available": "Available",
+    "addressInvalid": "Please make sure entered address is correct",
+    "nameInvaid": "Please make sure entered name is correct",
+    "youCanPairDevice": "You can pair a new device by tapping the button below",
+    "areYouSureSignout": "Are you sure you want to sign out?",
+    "home": "Home",
+    "shareWifi": "Share Wi-Fi",
+    "shareWifiDescription": "Provie a Wi-Fi credentials to allow the device to join",
+    "networkName": "Network name",
+    "password": "password",
+    "securityType": "Security type",
+    "places": "Places",
+    "addPlace": "Add Place",
+    "addDevice": "Add Device",
+    "addRoom": "Add Room",
+    "noPlacesToShow": "No Places to show",
+    "unnamedPlace": "Unnamed Place",
+    "provideTheDocumentUrl": "Provide the document URL",
+    "makeSureUrlIsValid": "Make sure the URL is valid",
+    "unnamedRoom": "Unnamed Room",
+    "unnamedDevice": "Unnamed Device",
+    "noDevicesAvailable": "No Devices available",
+    "noRoomsToShow": "No Rooms to show",
+    "username": "Username",
+    "joinNetwork": "Join Network"
+}
