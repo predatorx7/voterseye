@@ -10,11 +10,11 @@ import 'package:voterseye/feature/reports/data/report.dart';
 import 'package:voterseye/feature/reports/reports.dart';
 import 'package:voterseye/l10n/l10n.dart';
 import 'package:go_router/go_router.dart';
-import 'package:flutter/services.dart';
 import 'package:voterseye/logging.dart';
 import 'package:voterseye/screens/dashboard/seek_reports/screen.dart';
 import 'package:intl/intl.dart';
 
+import 'components/votings.dart';
 import 'reports/screen.dart';
 
 class _Navigation {
@@ -48,15 +48,8 @@ class DashboardScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Your Reports'),
+        title: const Text('Let\'s Vote 🔥'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.qr_code_scanner),
-            onPressed: () {
-              context.goNamed('seek-reports');
-            },
-            tooltip: 'Share Reports',
-          ),
           IconButton(
             icon: const Icon(Icons.account_circle),
             onPressed: () {
@@ -86,8 +79,7 @@ class DashboardScreen extends ConsumerWidget {
       body: CustomScrollView(
         slivers: [
           UserProfileCardSliver(user: user),
-          LinkReportsSectionSliver(),
-          UserReportsListSliver(),
+          ListVotesSliver(),
         ],
       ),
     );

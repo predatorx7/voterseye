@@ -6,6 +6,7 @@ import 'package:voterseye/l10n/l10n.dart';
 import 'package:voterseye/theme.dart';
 import 'package:voterseye/util.dart';
 
+import 'feature/firebase/firebase.dart';
 import 'logging.dart';
 import 'router/router.dart';
 import 'serializers.dart';
@@ -13,16 +14,17 @@ import 'serializers.dart';
 void main() async {
   initializeAppLogging();
   setupHandleJsonModelSerializer();
+  initializeFirebase();
 
   runApp(
     const ProviderScope(
-      child: HealthEyeApp(),
+      child: VotersEyeApp(),
     ),
   );
 }
 
-class HealthEyeApp extends StatelessWidget {
-  const HealthEyeApp({super.key});
+class VotersEyeApp extends StatelessWidget {
+  const VotersEyeApp({super.key});
 
   @override
   Widget build(BuildContext context) {

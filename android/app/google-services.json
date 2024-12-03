@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75670352059",
+    "project_id": "voterseye",
+    "storage_bucket": "voterseye.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75670352059:android:cebe82440fa426a719b99e",
+        "android_client_info": {
+          "package_name": "org.reclaimprotocol.voterseye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAICrW1HRQFY9qZDC_i5kVIr7reiuHsNIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
